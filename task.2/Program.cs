@@ -38,3 +38,21 @@
 // }
 // int count = ReadInt("Введите число - > ");
 // result(count);
+
+// int ReadInt(string text)
+// {
+//     Console.Write(text);
+//     return Convert.ToInt32(Console.ReadLine());
+// }
+// int count = ReadInt("Введите число - > ");
+// Console.Write(result(count));
+// int result(int y)
+// {
+//     int i = 0;
+//     while (y > 0)
+//     {
+//         i = i + y % 10;
+//         y = y / 10;
+//     }
+//     return (i);
+// }
